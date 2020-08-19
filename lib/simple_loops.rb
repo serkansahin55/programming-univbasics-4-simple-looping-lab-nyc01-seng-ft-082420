@@ -25,4 +25,8 @@ end
 
 
 def return_string_array(array)
+  array.each do |element|
+    puts element.to_s
+  end
+end
   
