@@ -9,5 +9,9 @@ end
 
 
 def loop_message_n_timers(message, integer)
-  count = 
-  
+  count = integer
+  while count < integer do
+    puts message
+    count += 1
+  end
+end
