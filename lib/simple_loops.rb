@@ -29,4 +29,3 @@ def return_string_array(array)
     puts element.to_s
   end
 end
-  
