@@ -8,7 +8,7 @@ end
 
 
 
-def loop_message_n_timers(message, integer)
+def loop_message_n_times(message, integer)
   count = 0
   while count < integer do
     puts message
