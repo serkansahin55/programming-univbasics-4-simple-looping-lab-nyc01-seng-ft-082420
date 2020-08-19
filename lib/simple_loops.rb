@@ -18,14 +18,17 @@ end
 
 
 def output_array(array)
-  array.each do |element|
-    puts element
+  count = 0
+  while count < array.length do 
+    puts array[count]
+    count += 1
   end
 end
 
-
 def return_string_array(array)
-  array.each do |element|
-    puts element.to_s
+  count = 0 
+  while count < array.length do
+    puts array[count].to_s
+    count += 1
   end
 end
