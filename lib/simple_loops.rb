@@ -15,3 +15,10 @@ def loop_message_n_times(message, integer)
     count += 1
   end
 end
+
+
+def output_array(array)
+  array.each do |element|
+    puts element
+  end
+end
